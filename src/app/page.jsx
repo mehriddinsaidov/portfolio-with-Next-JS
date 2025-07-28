@@ -34,13 +34,13 @@ const Home = () => {
               </div>
               <div className="md:w-1/2 flex justify-center">
                 <div className="relative w-64 h-64 md:w-80 md:h-80">
-                  {/* <svg className="w-full h-full" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="w-full h-full" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                     <path fill="#4F46E5"
                       d="M44.7,-76.4C58.8,-69.2,71.8,-59.1,79.6,-45.8C87.4,-32.6,90,-16.3,88.5,-1.5C87,13.4,81.3,26.8,73.4,38.4C65.4,50,55.3,59.9,43.1,67.4C30.9,74.9,15.4,80,0.1,79.9C-15.3,79.8,-30.6,74.4,-43.9,66.5C-57.3,58.5,-68.7,47.9,-75.1,35.1C-81.5,22.2,-82.9,7.1,-81.6,-7.8C-80.3,-22.7,-76.2,-37.5,-67.6,-49.8C-58.9,-62.1,-45.7,-71.9,-31.7,-79.1C-17.7,-86.3,-2.9,-91,10.3,-87.7C23.4,-84.4,30.5,-83.6,44.7,-76.4Z"
                       transform="translate(100 100)" />
-                    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white"
-                      font-size="24" font-weight="bold">Ваше фото</text>
-                  </svg> */}
+                    <text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fill="white"
+                      fontSize="24" fontWeight="bold">Ваше фото</text>
+                  </svg>
                 </div>
               </div>
             </div>
@@ -101,7 +101,7 @@ const Home = () => {
                     <span className="text-indigo-600 font-medium">85%</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2">
-                    <div className="bg-indigo-600 h-2 rounded-full w-[85]"></div>
+                    <div className="bg-indigo-600 h-2 rounded-full w-[85%]"></div>
                   </div>
                 </div>
 
@@ -111,7 +111,7 @@ const Home = () => {
                     <span className="text-indigo-600 font-medium">80%</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2">
-                    <div className="bg-indigo-600 h-2 rounded-full w-[80  ]"></div>
+                    <div className="bg-indigo-600 h-2 rounded-full w-[80%]"></div>
                   </div>
                 </div>
               </div>
@@ -134,9 +134,9 @@ const Home = () => {
               <div className="project-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300">
                 <div className="h-48 bg-indigo-100 flex items-center justify-center">
                   <svg className="w-16 h-16 text-indigo-500" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd"
+                    <path fillRule="evenodd"
                       d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"
-                      clip-rule="evenodd"></path>
+                      clipRule="evenodd"></path>
                   </svg>
                 </div>
                 <div className="p-6">
@@ -153,7 +153,7 @@ const Home = () => {
                     className="text-indigo-600 font-medium hover:text-indigo-700 transition-colors flex items-center">
                     Подробнее
                     <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7">
                       </path>
                     </svg>
                   </a>
@@ -163,9 +163,9 @@ const Home = () => {
               <div className="project-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300">
                 <div className="h-48 bg-indigo-100 flex items-center justify-center">
                   <svg className="w-16 h-16 text-indigo-500" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd"
+                    <path fillRule="evenodd"
                       d="M10 2a1 1 0 011 1v1.323l3.954 1.582 1.599-.8a1 1 0 01.894 1.79l-1.233.616 1.738 5.42a1 1 0 01-.285 1.05A3.989 3.989 0 0115 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.715-5.349L11 6.477V16h2a1 1 0 110 2H7a1 1 0 110-2h2V6.477L6.237 7.582l1.715 5.349a1 1 0 01-.285 1.05A3.989 3.989 0 015 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.738-5.42-1.233-.617a1 1 0 01.894-1.788l1.599.799L9 4.323V3a1 1 0 011-1zm-5 8.274l-.818 2.552c.25.112.526.174.818.174.292 0 .569-.062.818-.174L5 10.274zm10 0l-.818 2.552c.25.112.526.174.818.174.292 0 .569-.062.818-.174L15 10.274z"
-                      clip-rule="evenodd"></path>
+                      clipRule="evenodd"></path>
                   </svg>
                 </div>
                 <div className="p-6">
@@ -182,7 +182,7 @@ const Home = () => {
                     className="text-indigo-600 font-medium hover:text-indigo-700 transition-colors flex items-center">
                     Подробнее
                     <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7">
                       </path>
                     </svg>
                   </a>
@@ -192,9 +192,9 @@ const Home = () => {
               <div className="project-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300">
                 <div className="h-48 bg-indigo-100 flex items-center justify-center">
                   <svg className="w-16 h-16 text-indigo-500" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd"
+                    <path fillRule="evenodd"
                       d="M3 5a2 2 0 012-2h10a2 2 0 012 2v8a2 2 0 01-2 2h-2.22l.123.489.804.804A1 1 0 0113 18H7a1 1 0 01-.707-1.707l.804-.804L7.22 15H5a2 2 0 01-2-2V5zm5.771 7H5V5h10v7H8.771z"
-                      clip-rule="evenodd"></path>
+                      clipRule="evenodd"></path>
                   </svg>
                 </div>
                 <div className="p-6">
@@ -212,7 +212,7 @@ const Home = () => {
                     className="text-indigo-600 font-medium hover:text-indigo-700 transition-colors flex items-center">
                     Подробнее
                     <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7">
                       </path>
                     </svg>
                   </a>
@@ -229,7 +229,7 @@ const Home = () => {
           </div>
         </section>
 
-        {/* <section id="contact" className="py-20 bg-white">
+        <section id="contact" className="py-20 bg-white">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Связаться со мной</h2>
@@ -249,14 +249,14 @@ const Home = () => {
                     <div className="flex-shrink-0 bg-indigo-100 p-3 rounded-full">
                       <svg className="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor"
                         viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                           d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
                         </path>
                       </svg>
                     </div>
                     <div className="ml-4">
                       <h4 className="text-lg font-medium text-gray-800">Email</h4>
-                      <p className="text-gray-600">your.email@example.com</p>
+                      <p className="text-gray-600">mehriddinsaidovl8@gmail.com</p>
                     </div>
                   </div>
 
@@ -264,14 +264,14 @@ const Home = () => {
                     <div className="flex-shrink-0 bg-indigo-100 p-3 rounded-full">
                       <svg className="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor"
                         viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                           d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
                         </path>
                       </svg>
                     </div>
                     <div className="ml-4">
                       <h4 className="text-lg font-medium text-gray-800">Телефон</h4>
-                      <p className="text-gray-600">+7 (XXX) XXX-XX-XX</p>
+                      <p className="text-gray-600">+992 949-33-22-11</p>
                     </div>
                   </div>
 
@@ -279,16 +279,16 @@ const Home = () => {
                     <div className="flex-shrink-0 bg-indigo-100 p-3 rounded-full">
                       <svg className="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor"
                         viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                           d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
                         </path>
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                           d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                       </svg>
                     </div>
                     <div className="ml-4">
                       <h4 className="text-lg font-medium text-gray-800">Локация</h4>
-                      <p className="text-gray-600">Москва, Россия</p>
+                      <p className="text-gray-600">Душанбе, Таджикистан</p>
                     </div>
                   </div>
 
@@ -333,28 +333,28 @@ const Home = () => {
                   <h3 className="text-2xl font-bold text-gray-800 mb-6">Отправьте мне сообщение</h3>
 
                   <div className="mb-6">
-                    <label for="name" className="block text-gray-700 font-medium mb-2">Имя</label>
+                    <label htmlFor="name" className="block text-gray-700 font-medium mb-2">Имя</label>
                     <input type="text" id="name"
                       className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
-                      placeholder="Ваше имя">
+                      placeholder="Ваше имя" />
                   </div>
 
                   <div className="mb-6">
-                    <label for="email" className="block text-gray-700 font-medium mb-2">Email</label>
+                    <label htmlFor="email" className="block text-gray-700 font-medium mb-2">Email</label>
                     <input type="email" id="email"
                       className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
-                      placeholder="Ваш email">
+                      placeholder="Ваш email" />
                   </div>
 
                   <div className="mb-6">
-                    <label for="subject" className="block text-gray-700 font-medium mb-2">Тема</label>
+                    <label htmlFor="subject" className="block text-gray-700 font-medium mb-2">Тема</label>
                     <input type="text" id="subject"
                       className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
-                      placeholder="Тема сообщения">
+                      placeholder="Тема сообщения" />
                   </div>
 
                   <div className="mb-6">
-                    <label for="message" className="block text-gray-700 font-medium mb-2">Сообщение</label>
+                    <label htmlFor="message" className="block text-gray-700 font-medium mb-2">Сообщение</label>
                     <textarea id="message" rows="5"
                       className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                       placeholder="Ваше сообщение"></textarea>
@@ -368,7 +368,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
       </main>
 
     </>
